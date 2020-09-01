@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PesanActivity">
+
+    <RelativeLayout
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ket_nama_pemesan"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:text="Nama Pemesan"
+            android:layout_marginTop="70dp"/>
+
+        <TextView
+            android:id="@+id/ket_nama_rs"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:text="Nama Rumah Sakit"
+            android:layout_below="@+id/ket_nama_pemesan"
+            android:layout_marginRight="5dp" />
+        <TextView
+
+            android:id="@+id/ket_nomor_telepon"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:text="Nomor Telepon"
+            android:layout_below="@+id/ket_nama_rs"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:text="Email"
+            android:id="@+id/ket_email"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_below="@+id/ket_nomor_telepon"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:text="Latitude"
+            android:id="@+id/ket_latitude"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_below="@+id/ket_email"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:text="Longitude"
+            android:id="@+id/ket_longitude"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_below="@+id/ket_latitude"
+            android:layout_marginRight="5dp" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/keterangan">
+
+            <EditText
+                android:id="@+id/nama_pemesan"
+                android:layout_width="165dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="70dp"
+                />
+
+            <EditText
+                android:id="@+id/nama_rs"
+                android:layout_width="165dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/nama_pemesan"
+                />
+            <EditText
+
+                android:id="@+id/nomor_telepon"
+                android:layout_width="165dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/nama_rs"
+                android:layout_marginRight="5dp" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="165dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/nomor_telepon"
+                android:layout_marginRight="5dp" />
+            <EditText
+                android:id="@+id/latitude"
+                android:layout_width="165dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/email"
+                android:layout_marginRight="5dp" />
+            <EditText
+                android:id="@+id/longitude"
+                android:layout_width="165dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/latitude"
+                android:layout_marginRight="5dp" />
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button"
+        android:layout_below="@id/keterangan">
+            <Button
+                android:id="@+id/btn_pesan"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Pesan"
+                android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

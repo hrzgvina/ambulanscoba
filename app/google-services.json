@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "164875752479",
+    "firebase_url": "https://db12-247b1.firebaseio.com",
+    "project_id": "db12-247b1",
+    "storage_bucket": "db12-247b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164875752479:android:2664bfffcb46681464712a",
+        "android_client_info": {
+          "package_name": "com.example.ambulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164875752479-hc2nh2e3hn1gl2sja01hc929u5ortqo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBMfejL1V6iC1RbeuUmsa6-2OG8TrbC7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164875752479-hc2nh2e3hn1gl2sja01hc929u5ortqo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164875752479:android:6be7669ce6d1aa5264712a",
+        "android_client_info": {
+          "package_name": "com.example.ambulans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164875752479-hc2nh2e3hn1gl2sja01hc929u5ortqo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBMfejL1V6iC1RbeuUmsa6-2OG8TrbC7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164875752479-hc2nh2e3hn1gl2sja01hc929u5ortqo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164875752479:android:4359da3f1823491264712a",
+        "android_client_info": {
+          "package_name": "com.example.sliderambulan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164875752479-hc2nh2e3hn1gl2sja01hc929u5ortqo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBMfejL1V6iC1RbeuUmsa6-2OG8TrbC7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164875752479-hc2nh2e3hn1gl2sja01hc929u5ortqo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
